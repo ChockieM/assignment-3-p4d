@@ -6,6 +6,8 @@ video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
+  -o-filter: blur(15px);
+    filter: blur(15px);
   position: fixed;
   top: 0;
   left: 0;
