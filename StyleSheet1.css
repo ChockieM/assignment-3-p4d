@@ -1,16 +1,127 @@
 ﻿body
 {
+    
+}
+
+h2 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   text-align: center; 
+}
+
+h3 {
+   color: white;
+   font-size: 30px;
+   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+   padding: 1px;
+}
+
+h4 {
+	color: white;
+   font-size: 30px;
+   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+   padding: 1px;
+   text-align:center
+}
+
+.sample {
+         column-count: 3;
+         column-gap: 10px;
+         column-rule: 5px white;
+		 color: white;
+		font-size: 30px;
+		text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+		padding: 1px;
+      }
+
+.firepic {
+	border: 10px solid #FFFFFF;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+p
+{
+   color: white;
+   font-size: 30px;
+   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+   padding: 1px;
+}
+
+header
+{
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+    padding: 1px;
 }
 
 video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
-  -o-filter: blur(15px);
-    filter: blur(15px);
+ -o-filter: blur(15px);
+ filter: blur(15px);
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
+}
+
+/* SLIDESHOW */
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 5rem;
+  max-width: 650px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption */
+.text {
+	color: white;
+   font-size: 30px;
+   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+  padding: 8px 12px;
+  position: center;
+  top: 0;
+   padding: 1px;
+}
+
+.slidepic {
+border: 10px solid #FFFFFF;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Columns */
+.column {
+   margin-top: 2rem;
+   float: left;
+   width: 70%;
+   color: white;
+   font-size: 30px;
+   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+ }
+
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
 }
 
 .viewport-header {
